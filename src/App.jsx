@@ -68,6 +68,8 @@ function App() {
   let result
   if (win) {
     result = "Winner Is ---> "+win
+  }else if (filled(value)) {
+    result = "You Can Restart";
   } else {
     result = "This is Your Turn ---> " + (status ? "X" : "O");
   }
