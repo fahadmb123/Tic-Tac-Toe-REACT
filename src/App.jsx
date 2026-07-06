@@ -32,10 +32,10 @@ function Winner (values) {
 function filled(values) {
   for (let v of values) {
     if (!v){
-      return true
+      return false
     }
   }
-  return false
+  return true
 }
 
 function App() {
@@ -71,7 +71,15 @@ function App() {
   } else {
     result = "This is Your Turn ---> " + (status ? "X" : "O");
   }
- 
+
+
+  let showClearButton = false
+  if (win || filled(value)) {
+    showClearButton = true
+  }
+
+
+  
   return (
     <>
       <div className='game'>
@@ -98,7 +106,7 @@ function App() {
 
 
         </div>
-         {win && <button onClick={Clear}>Clear</button>}
+         {showClearButton && <button onClick={Clear}>Clear</button>}
       </div>
     </>
   )
