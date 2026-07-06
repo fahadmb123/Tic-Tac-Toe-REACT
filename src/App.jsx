@@ -35,7 +35,7 @@ function App() {
   const [value,setValue] = useState(Array(9).fill(null))
 
   function Click(index) {
-
+    if (Winner(index) || value(index)) return
     let val
     if (status) {
       val = "X"
@@ -48,12 +48,19 @@ function App() {
     setValue(New)
     setStatus(!status)
   }
-
+  const win = Winner(value)
+  let result
+  if (win) {
+    result = "Winner Is ---> "+win
+  } else {
+    result = "This is Your Turn ---> "+status? "X" : "O"
+  }
   return (
     <>
       <div className='game'>
         <h1 className="title">Tic-Tac-Toe</h1>
-        <h2 className="second-title">Wannna Playy...</h2><br />
+        <h2 className="second-title">Wannna Playy...</h2>
+        <h2 className="third-title">{result}</h2><br />
 
 
         <div className="board">
