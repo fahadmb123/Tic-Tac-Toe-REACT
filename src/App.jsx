@@ -1,11 +1,12 @@
+import { useState } from 'react'
 import './App.css'
 
 function Square (props) {
-
+  const [value,setValue] = useState(null)
   function Click() {
-    console.log("Clicked")
+    setValue(props.value)
   }
-  return  <button className="square" onClick={Click}>{props.value}</button>
+  return  <button className="square" onClick={Click}>{value}</button>
 }
 function App() {
 
