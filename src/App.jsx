@@ -2,8 +2,10 @@ import './App.css'
 
 function Square (props) {
 
-  
-  return  <button className="square">{props.value}</button>
+  function Click() {
+    console.log("Clicked")
+  }
+  return  <button className="square" onClick={Click}>{props.value}</button>
 }
 function App() {
 
