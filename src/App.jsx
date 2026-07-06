@@ -7,13 +7,23 @@ function Square (props) {
 }
 
 function App() {
-  
+
+  const [status,setStatus] = useState(true)
   const [value,setValue] = useState(Array(9).fill(null))
+
   function Click(index) {
-    const New = value.slice()
-    New[index-1] = index
-    setValue(New)
+
+    let val
+    if (status) {
+      val = "X"
+    } else {
+      val = "O"
+    }
     
+    const New = value.slice()
+    New[index-1] = val
+    setValue(New)
+    setStatus(!status)
   }
 
   return (
