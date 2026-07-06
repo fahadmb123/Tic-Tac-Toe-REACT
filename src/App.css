@@ -4,3 +4,47 @@
   background-color: rgb(234, 238, 238);
   
 }
+.board-row  {
+  height:100px ;
+  display: flex;
+  
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+.square:hover {
+  background-color: #e8e8e8;
+}
+.title {
+  color: rgb(112, 241, 60);
+  font-size: 4rem;
+}
+.second-title{
+  color: white;
+}
