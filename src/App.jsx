@@ -35,7 +35,7 @@ function App() {
   const [value,setValue] = useState(Array(9).fill(null))
 
   function Click(index) {
-    if (Winner(value) || value(index)){
+    if (Winner(value) || value[index]){
       return
     }
     let val
