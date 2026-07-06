@@ -7,11 +7,13 @@ function Square (props) {
 }
 
 function App() {
+  
   const [value,setValue] = useState(Array(9).fill(null))
   function Click(index) {
     const New = value.slice()
     New[index-1] = index
     setValue(New)
+    
   }
 
   return (
