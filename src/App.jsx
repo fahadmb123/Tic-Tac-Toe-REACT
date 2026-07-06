@@ -106,7 +106,7 @@ function App() {
 
 
         </div>
-         {showClearButton && <button onClick={Clear}>Clear</button>}
+         {showClearButton && <button className="clear-btn" onClick={Clear}>Clear</button>}
       </div>
     </>
   )
