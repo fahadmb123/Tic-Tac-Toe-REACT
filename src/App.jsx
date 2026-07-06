@@ -29,6 +29,15 @@ function Winner (values) {
 }
 
 
+function filled(values) {
+  for (let v of values) {
+    if (!v){
+      return true
+    }
+  }
+  return false
+}
+
 function App() {
 
   const [status,setStatus] = useState(true)
@@ -50,6 +59,11 @@ function App() {
     setValue(New)
     setStatus(!status)
   }
+
+  function Clear () {
+    setValue(Array(9).fill(null))
+  }
+
   const win = Winner(value)
   let result
   if (win) {
@@ -57,6 +71,7 @@ function App() {
   } else {
     result = "This is Your Turn ---> " + (status ? "X" : "O");
   }
+ 
   return (
     <>
       <div className='game'>
@@ -83,6 +98,7 @@ function App() {
 
 
         </div>
+         {win && <button onClick={Clear}>Clear</button>}
       </div>
     </>
   )
