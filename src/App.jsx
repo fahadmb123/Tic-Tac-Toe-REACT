@@ -35,7 +35,7 @@ function App() {
   const [value,setValue] = useState(Array(9).fill(null))
 
   function Click(index) {
-    if (Winner(value) || value[index]){
+    if (Winner(value) || value[index-1]){
       return
     }
     let val
@@ -55,7 +55,7 @@ function App() {
   if (win) {
     result = "Winner Is ---> "+win
   } else {
-    result = "This is Your Turn ---> "+status? "X" : "O"
+    result = "This is Your Turn ---> " + (status ? "X" : "O");
   }
   return (
     <>
