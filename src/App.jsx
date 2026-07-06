@@ -2,13 +2,17 @@ import { useState } from 'react'
 import './App.css'
 
 function Square (props) {
-  const [value,setValue] = useState(null)
-  function Click() {
-    setValue(props.value)
-  }
-  return  <button className="square" onClick={Click}>{value}</button>
+
+  return  <button className="square" onClick={props.onClick}>{props.value}</button>
 }
+
 function App() {
+  const [value,setValue] = useState(Array(9).fill(null))
+  function Click() {
+    const New = value.slice()
+    New[0] = "X"
+    setValue(New)
+  }
 
   return (
     <>
@@ -20,17 +24,18 @@ function App() {
         <div className="board">
 
 
-          <Square value="1"/>
-          <Square value="2"/>
-          <Square value="3"/>
+          <Square value={value[0]} onClick={Click}/>
+          <Square value={value[1]} onClick={Click}/>
+          <Square value={value[2]}/>
 
-          <Square value="4"/>
-          <Square value="5"/>
-          <Square value="6"/>
+          <Square value={value[3]}/>
+          <Square value={value[4]}/>
+          <Square value={value[5]}/>
 
-          <Square value="7"/>
-          <Square value="8"/>
-          <Square value="9"/>
+          <Square value={value[6]}/>
+          <Square value={value[7]}/>
+          <Square value={value[8]}/>
+
 
 
         </div>
