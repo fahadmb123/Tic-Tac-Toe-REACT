@@ -1,6 +1,10 @@
 import './App.css'
 
+function Square (props) {
 
+  
+  return  <button className="square">{props.value}</button>
+}
 function App() {
 
   return (
@@ -13,17 +17,17 @@ function App() {
         <div className="board">
 
 
-          <button className="square"></button>
-          <button className="square"></button>
-          <button className="square"></button>
+          <Square value="1"/>
+          <Square value="2"/>
+          <Square value="3"/>
 
-          <button className="square"></button>
-          <button className="square"></button>
-          <button className="square"></button>
+          <Square value="4"/>
+          <Square value="5"/>
+          <Square value="6"/>
 
-          <button className="square"></button>
-          <button className="square"></button>
-          <button className="square"></button>
+          <Square value="7"/>
+          <Square value="8"/>
+          <Square value="9"/>
 
 
         </div>
