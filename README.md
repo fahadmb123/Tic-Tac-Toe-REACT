@@ -14,7 +14,7 @@
 ### 📷 Project Preview
 
 <p align="center">
-  <img src="/src/assets/tic-tac-toe.mp4" width="800">
+  <img src="/src/assets/tic-tac-toe.gif" width="800">
 </p>
 
 </div>
