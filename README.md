@@ -110,37 +110,19 @@ npm run dev
 
 ---
 
-# 🔮 Future Improvements
 
-* 🏅 Scoreboard
-* 🤖 AI Opponent
-* ✨ Winning Cell Animation
-* 📜 Move History
-* 🌙 Dark / Light Mode
-* 🔊 Sound Effects
-* 📱 Better Mobile Experience
-
----
 
 # 📸 Screenshot
 
-Replace the image below with your own screenshot.
+
 
 ```md
-![Game Screenshot](./screenshots/tic-tac-toe.png)
+![Game Screenshot](./src/assets/tic-tac-toe.png)
 ```
 
 ---
 
-# 🤝 Contributing
 
-Contributions are always welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push the branch
-5. Open a Pull Request
 
 ---
 
