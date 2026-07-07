@@ -109,19 +109,6 @@ npm run dev
 
 
 
-# 📸 Screenshot
-
-
-
-```md
-![Game Screenshot](./src/assets/tic-tac-toe.png)
-```
-
----
-
-
-
----
 
 # 👨‍💻 Author
 
