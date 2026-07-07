@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import Confetti from "react-confetti";
+import { useWindowSize } from "@uidotdev/usehooks";
+
+
 
 function Square (props) {
 
@@ -74,7 +78,7 @@ function App() {
     result = "This is Your Turn ---> " + (status ? "X" : "O");
   }
 
-
+  
   let showClearButton = false
   if (win || filled(value)) {
     showClearButton = true
@@ -84,10 +88,19 @@ function App() {
   
   return (
     <>
+      {win && (<Confetti
+          width={window.innerWidth}
+          height={window.innerHeight}
+          numberOfPieces={1200}
+          recycle={true}
+          gravity={1.5}
+          initialVelocityX={20}
+          initialVelocityY={35}
+      />)}
       <div className='game'>
         <h1 className="title">Tic-Tac-Toe</h1>
         <h2 className="second-title">Wannna Playy...</h2>
-        <h2 className="third-title">{result}</h2><br />
+        <h2 className={win ? "third-title winner" : "third-title"}>{result}</h2><br />
 
 
         <div className="board">

@@ -82,3 +82,46 @@
 .clear-btn:focus {
   outline: none;
 }
+
+
+
+.third-title {
+  color: white;
+  transition: 0.3s;
+}
+
+.winner {
+  color: #ffd700;
+  animation: pulse 0.8s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.celebrate {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0;
+  animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
