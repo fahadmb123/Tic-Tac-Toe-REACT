@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Confetti from "react-confetti";
-import { useWindowSize } from "@uidotdev/usehooks";
+
 
 
 
