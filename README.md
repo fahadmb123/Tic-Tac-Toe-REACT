@@ -1,58 +1,70 @@
+<div align="center">
+
 # 🎮 Tic-Tac-Toe
 
-A modern **Tic-Tac-Toe** web application built with **React** and **Vite**. This project demonstrates React fundamentals including component-based architecture, state management with Hooks, event handling, conditional rendering, and game logic implementation.
+### A modern Tic-Tac-Toe game built with **React** & **Vite**
+
+
 
 ---
 
-## 📖 Overview
+### 📷 Project Preview
 
-This application allows two players to play Tic-Tac-Toe in the browser. It tracks player turns, prevents invalid moves, detects the winner, and provides an option to restart the game.
+<img src=".//tic-tac-toe.png" width="700"/>
 
-The project was developed as part of my React learning journey to strengthen my understanding of component communication and state updates.
-
----
-
-## ✨ Features
-
-* 🎯 Two-player gameplay (X & O)
-* 🔄 Automatic turn switching
-* 🏆 Winner detection
-* 🚫 Prevents moves on occupied squares
-* 📢 Displays the current player's turn
-* ♻️ Restart/Clear game functionality
-* ⚛️ Built using React Hooks (`useState`)
-* 📱 Responsive and clean user interface
+</div>
 
 ---
 
-## 📸 Screenshot
+# ✨ Features
 
-![Tic-Tac-Toe](./screenshots/tic-tac-toe.png)
-
----
-
-## 🛠️ Technologies Used
-
-* React
-* Vite
-* JavaScript (ES6+)
-* HTML5
-* CSS3
+* 🎮 Two Player Gameplay
+* ❌⭕ Alternate Turns (X & O)
+* 🏆 Automatic Winner Detection
+* 🚫 Prevents Invalid Moves
+* 📢 Displays Current Turn
+* 🔄 Restart / Clear Game
+* ⚡ Fast Performance with React
+* 📱 Responsive Design
 
 ---
 
-## 📂 Project Structure
+# 🚀 Live Demo
+
+> Add your deployed project link here.
+
+```text
+https://your-project.vercel.app
+```
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology    | Usage          |
+| ------------- | -------------- |
+| ⚛️ React      | UI Development |
+| ⚡ Vite        | Build Tool     |
+| 🟨 JavaScript | Game Logic     |
+| 🎨 CSS3       | Styling        |
+
+---
+
+# 📂 Folder Structure
 
 ```text
 tic-tac-toe/
+│
 ├── public/
 ├── screenshots/
 │   └── tic-tac-toe.png
+│
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
 │   ├── main.jsx
 │   └── assets/
+│
 ├── package.json
 ├── vite.config.js
 └── README.md
@@ -60,88 +72,93 @@ tic-tac-toe/
 
 ---
 
-## 🚀 Getting Started
+# 📦 Installation
 
-### Clone the repository
+Clone the repository
 
 ```bash
 git clone https://github.com/fahadmb123/Tic-Tac-Toe-REACT.git
 ```
 
-### Navigate to the project
+Go to the project folder
 
 ```bash
 cd Tic-Tac-Toe-REACT
 ```
 
-### Install dependencies
+Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run the development server
+Run the project
 
 ```bash
 npm run dev
 ```
 
-Visit:
+---
 
-```text
-http://localhost:5173
+# 🧠 React Concepts Used
+
+* ✅ Components
+* ✅ Props
+* ✅ useState Hook
+* ✅ Event Handling
+* ✅ Conditional Rendering
+* ✅ Immutable State Updates
+* ✅ JSX
+* ✅ Component Re-rendering
+
+---
+
+# 🔮 Future Improvements
+
+* 🏅 Scoreboard
+* 🤖 AI Opponent
+* ✨ Winning Cell Animation
+* 📜 Move History
+* 🌙 Dark / Light Mode
+* 🔊 Sound Effects
+* 📱 Better Mobile Experience
+
+---
+
+# 📸 Screenshot
+
+Replace the image below with your own screenshot.
+
+```md
+![Game Screenshot](./screenshots/tic-tac-toe.png)
 ```
 
 ---
 
-## 🧠 Concepts Practiced
+# 🤝 Contributing
 
-* React Components
-* JSX
-* Props
-* State Management (`useState`)
-* Event Handling
-* Conditional Rendering
-* Immutable State Updates
-* Game Logic
-* Component Re-rendering
-
----
-
-## 🔮 Future Enhancements
-
-* Highlight the winning combination
-* Draw detection message
-* Scoreboard
-* Move history
-* Undo/Redo functionality
-* Single-player mode (AI)
-* Sound effects
-* Animations
-* Dark/Light theme
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
+Contributions are always welcome.
 
 1. Fork the repository
-2. Create a feature branch
+2. Create a new branch
 3. Commit your changes
-4. Push to your fork
+4. Push the branch
 5. Open a Pull Request
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Fahad MB**
 
-GitHub: https://github.com/fahadmb123
+GitHub: **https://github.com/fahadmb123**
 
 ---
 
-## 📄 License
+<div align="center">
 
-This project is licensed under the MIT License.
+### ⭐ If you enjoyed this project, don't forget to star the repository!
+
+Made with ❤️ using React
+
+</div>
