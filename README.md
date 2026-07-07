@@ -13,10 +13,9 @@
 
 ### 📷 Project Preview
 
-<video width="800" controls>
-  <source src="./src//assets/tic-tac-toe.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <img src="/src/assets/tic-tac-toe.mp4" width="800">
+</p>
 
 </div>
 
