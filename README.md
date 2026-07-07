@@ -34,11 +34,6 @@
 
 # 🚀 Live Demo
 
-> Add your deployed project link here.
-
-```text
-https://your-project.vercel.app
-```
 
 ---
 
