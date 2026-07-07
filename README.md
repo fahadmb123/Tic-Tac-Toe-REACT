@@ -1,56 +1,58 @@
 # 🎮 Tic-Tac-Toe
 
-A simple and interactive **Tic-Tac-Toe** game built with **React** and **Vite**. This project was created to practice React fundamentals such as components, props, state management, event handling, conditional rendering, and array updates.
+A modern **Tic-Tac-Toe** web application built with **React** and **Vite**. This project demonstrates React fundamentals including component-based architecture, state management with Hooks, event handling, conditional rendering, and game logic implementation.
 
 ---
 
-## 🚀 Features
+## 📖 Overview
 
-* ✅ Two-player gameplay (X vs O)
-* ✅ Alternating turns
-* ✅ Winner detection
-* ✅ Prevents overwriting occupied squares
-* ✅ Displays the current player's turn
-* ✅ Reset/Clear board functionality
-* ✅ Responsive and clean user interface
+This application allows two players to play Tic-Tac-Toe in the browser. It tracks player turns, prevents invalid moves, detects the winner, and provides an option to restart the game.
+
+The project was developed as part of my React learning journey to strengthen my understanding of component communication and state updates.
 
 ---
 
-## 🛠️ Built With
+## ✨ Features
 
-* React
-* Vite
-* JavaScript (ES6+)
-* CSS3
+* 🎯 Two-player gameplay (X & O)
+* 🔄 Automatic turn switching
+* 🏆 Winner detection
+* 🚫 Prevents moves on occupied squares
+* 📢 Displays the current player's turn
+* ♻️ Restart/Clear game functionality
+* ⚛️ Built using React Hooks (`useState`)
+* 📱 Responsive and clean user interface
 
 ---
 
 ## 📸 Screenshot
 
-> Add a screenshot of your project here.
+![Tic-Tac-Toe](./screenshots/tic-tac-toe.png)
 
-Example:
+---
 
-```
-screenshots/game.png
-```
+## 🛠️ Technologies Used
 
-or drag and drop an image into your GitHub README after pushing.
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 tic-tac-toe/
-│
 ├── public/
+├── screenshots/
+│   └── tic-tac-toe.png
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
 │   ├── main.jsx
 │   └── assets/
-│
 ├── package.json
 ├── vite.config.js
 └── README.md
@@ -58,83 +60,77 @@ tic-tac-toe/
 
 ---
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/fahadmb123/Tic-Tac-Toe-REACT.git
 ```
 
-Navigate to the project folder:
+### Navigate to the project
 
 ```bash
 cd Tic-Tac-Toe-REACT
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Run the development server
 
 ```bash
 npm run dev
 ```
 
-Open your browser and visit:
+Visit:
 
-```
+```text
 http://localhost:5173
 ```
 
 ---
 
-## 🎯 Learning Objectives
-
-This project helped me understand:
+## 🧠 Concepts Practiced
 
 * React Components
+* JSX
 * Props
-* State (`useState`)
+* State Management (`useState`)
 * Event Handling
 * Conditional Rendering
-* Updating Arrays in State
-* JSX
+* Immutable State Updates
+* Game Logic
 * Component Re-rendering
-* Basic Game Logic
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
 * Highlight the winning combination
-* Display a draw message
-* Add score tracking
-* Add Restart Game animation
-* Add Dark/Light mode
-* Add Player Name input
-* Add Sound Effects
-* Add Single Player mode (AI)
+* Draw detection message
+* Scoreboard
+* Move history
+* Undo/Redo functionality
+* Single-player mode (AI)
+* Sound effects
+* Animations
+* Dark/Light theme
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a new branch
+2. Create a feature branch
 3. Commit your changes
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+4. Push to your fork
+5. Open a Pull Request
 
 ---
 
@@ -143,3 +139,9 @@ This project is licensed under the MIT License.
 **Fahad MB**
 
 GitHub: https://github.com/fahadmb123
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
