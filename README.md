@@ -4,13 +4,16 @@
 
 ### A modern Tic-Tac-Toe game built with **React** & **Vite**
 
-
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript\&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
 ### 📷 Project Preview
 
-<img src=".//tic-tac-toe.png" width="700"/>
+<img src="./src/assets/tic-tac-toe.png" width="700"/>
 
 </div>
 
