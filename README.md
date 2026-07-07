@@ -13,7 +13,7 @@
 
 ### 📷 Project Preview
 
-<img src="./src/assets/tic-tac-toe.png" width="700"/>
+<img src="./src/assets/tic-tac-toe.mp4" width="700"/>
 
 </div>
 
