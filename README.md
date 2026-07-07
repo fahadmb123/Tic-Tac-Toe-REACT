@@ -13,7 +13,10 @@
 
 ### 📷 Project Preview
 
-<img src="./src/assets/tic-tac-toe.mp4" width="700"/>
+<video width="800" controls>
+  <source src="./src//assets/tic-tac-toe.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 </div>
 
