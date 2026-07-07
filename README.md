@@ -30,9 +30,6 @@
 * ⚡ Fast Performance with React
 * 📱 Responsive Design
 
----
-
-# 🚀 Live Demo
 
 
 ---
