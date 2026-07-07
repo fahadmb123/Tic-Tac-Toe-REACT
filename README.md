@@ -54,15 +54,14 @@
 tic-tac-toe/
 │
 ├── public/
-├── screenshots/
-│   └── tic-tac-toe.png
-│
+│  
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
 │   ├── main.jsx
 │   └── assets/
-│
+│       └── tic-tac-toe.png
+|
 ├── package.json
 ├── vite.config.js
 └── README.md
